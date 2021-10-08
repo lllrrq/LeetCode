@@ -1,5 +1,9 @@
 package com.lrq;
 import java.util.HashMap;
+/*
+    题目描述：给定一个数组(数组元素全为整数)，以及一个目标值target，从数组中任意选取两个数使得和为target，返回这两个数的下标。
+    思路：遍历数组，将target-nums[i]放入哈希表中，从剩下的元素中寻找与哈希表中的补数相对应
+ */
 
 public class lc_002 {
     public void main(String[] args) {
