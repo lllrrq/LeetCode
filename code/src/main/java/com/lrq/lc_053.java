@@ -10,7 +10,7 @@ public class lc_053 {
         int[] dp=new int[arr.length];
         //初始化截止到当前位置i处的和
         dp[0]=arr[0];
-        int maxsum=0;
+        int maxsum=arr[0];
         for(int i=1;i<arr.length;i++){
             //dp[i-1]+arr[i]表示的是加上第i个数的和
             if((dp[i-1]+arr[i])<arr[i]){
