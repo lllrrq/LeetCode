@@ -1,5 +1,8 @@
 package com.lrq;
-
+/*
+    题目描述：最大连续字段和
+    思路：动态规划，找到状态转移方程：dp[i]=max(dp[i-1]+arr[i],arr[i])
+ */
 public class lc_053 {
     public static void main(String[] args) {
         int[] arr={-2,1,-3,4,-1,2,1,-5,4};
