@@ -4,7 +4,7 @@ package com.lrq;
     思路：从高位开始遍历，主要是判断是否等于9，如果等于9那么将该位置零，如果不等于9就加一。
  */
 
-public class lc_061 {
+public class lc_066 {
     public int[] plusOne(int[] digits) {
 
         for (int i = digits.length - 1; i >= 0; i--) {
